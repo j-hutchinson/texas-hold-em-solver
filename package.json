@@ -10,13 +10,26 @@
     "poker",
     "texas",
     "holdem"
-	],
-	"private": true,
+  ],
+  "private": true,
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-jest": "^23.6.0",
     "babel-preset-env": "^1.7.0",
     "jest": "^23.6.0",
     "regenerator-runtime": "^0.12.1"
+  },
+  "prettier": {
+    "printWidth": 95,
+    "tabWidth": 2,
+    "useTabs": true,
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "none",
+    "bracketSpacing": true,
+    "fluid": false
+  },
+  "dependencies": {
+    "prettier": "^2.1.2"
   }
 }
